@@ -1,0 +1,1 @@
+This repository was created to showcase my development in the C language. Here, I’m going to share some functions and tools that anyone who studies programming can use.
