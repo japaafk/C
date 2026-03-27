@@ -1,6 +1,12 @@
-#include <stdio.h> 
+/*you can create a comment using a double slash for simple-lines comments
+or by using block comments
+*/ 
 
-//
+    
+#include <stdio.h> 
+// <stdio.h> is a header file that defines the function
+
+
 int main() {
 
     printf("hello world");
