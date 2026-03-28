@@ -4,7 +4,7 @@ or by using block comments
 
     
 #include <stdio.h> 
-// <stdio.h> is a header file that defines the function
+// <stdio.h> is a header file that defines a function, works like a lib
 
 
 int main() {
