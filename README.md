@@ -27,4 +27,5 @@ This repository includes:
 ---
 
 📌 Notes
-This repository is intended for educational purposes. The code may evolve as I improve my understanding of the language.
+This repository is intended for educational purposes. The code may
+evolve as I improve my understanding of the language.
