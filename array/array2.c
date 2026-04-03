@@ -5,7 +5,7 @@ int average(int length, int array[]) {
     int result;
     for(int numbers = 0; numbers < length; numbers++)
     {
-        sum += array[numbers];
+        sum += array[numbers]; // I'm getting the number located in that position
     }
     result = sum / length;
     return result;
