@@ -1,13 +1,13 @@
 #include <stdio.h>
 
-int average(int length, int array[]) {
+float average(int length, int array[]) {
     int sum = 0;
-    int result;
+    float result;
     for(int numbers = 0; numbers < length; numbers++)
     {
         sum += array[numbers]; // I'm getting the number located in that position
     }
-    result = sum / length;
+    result = sum / (float) length;
     return result;
 }
 
@@ -19,5 +19,5 @@ int main(void) {
         printf("Type ur score: ");
         scanf("%i", &scores[i]);
     }
-    printf("%i", average(N, scores));
+    printf("%f", average(N, scores));
 }
