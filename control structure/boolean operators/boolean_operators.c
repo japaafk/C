@@ -22,5 +22,10 @@ int main(void) {
         printf("Okay, bye");
     }
     // !variable - inverts the value of its operand
+    int idade = 15;
+
+    if (!(idade >= 18)) { // its the same thing -> if (idade < 18)
+        printf("Menor de idade\n");
+}
     return 0;
 }
