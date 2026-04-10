@@ -6,11 +6,9 @@ int main(void) {
     int n2 = 7;
     char answer;
 
-    if (n1 == 6 && n2 ==7) { // && it means AND
+    if (n1 == 6 && n2 == 7) { // && it means AND
         printf("67\n");
     }
-
-
 
     printf("Do you like it? \n");
     scanf("%c", &answer);
@@ -26,6 +24,6 @@ int main(void) {
 
     if (!(idade >= 18)) { // its the same thing -> if (idade < 18)
         printf("Menor de idade\n");
-}
+    }
     return 0;
 }
