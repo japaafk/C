@@ -1,3 +1,4 @@
+// LINEAR SEARCH IS A WAY TO FIND AN ITEM BY GOING THROUGH EACH ELEMENT OF AN ARRAY
 #include <stdio.h>
 #include <string.h>
 
