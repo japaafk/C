@@ -19,5 +19,5 @@ int main(void) {
         printf("Type ur score: ");
         scanf("%i", &scores[i]);
     }
-    printf("%f", average(N, scores));
+    printf("%.2f", average(N, scores));
 }
