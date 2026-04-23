@@ -3,9 +3,11 @@
 
 int main(void) {
 
-    int n = 50;
-    int *p = &n;
-    printf("%p\n", p); // showing the adress of the variable n
+    int N = 50;
+    int *P = &N;
+    printf("The adress of the variable: %p\n", P); // showing the adress of the variable N
+    // DEREFERENCE OPERATOR
+    printf("The value of the variable: %i\n", *P); // by using * you're saying to go to the adress in P
     
     return 0;
 }
