@@ -1,3 +1,4 @@
+// POINTERS ARE USEFUL CAUSE THEY STORE THE ADRESS OF A VALUE IN MEMORY
 #include <stdio.h>
 
 int main(void) {
