@@ -1,4 +1,5 @@
 // malloc(MEMORY ALLOCATION): ITS A FUNCTION THAT ALLOCATES MEMORY
+// if you use malloc() you also must use free() to avoid memory leak
 #include <stdio.h>
 #include <ctype.h>
 #include <stdlib.h>
