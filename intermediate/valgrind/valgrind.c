@@ -7,7 +7,7 @@ int main(void) {
     
     // dynamic way to get space for 3 integers from malloc
     int *x = malloc(3 * sizeof(int)); // malloc takes as it arguments the number of bytes that you to get
-    if(x == NULL) {
+    if(x == NULL) { // checking if malloc was able to get the memory
         return 1;
     }
     x[0] = 72;
