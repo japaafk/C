@@ -8,7 +8,7 @@ int main(void) {
     word[1] = "BYE!";
     */
     
-    char word[2][10]; // Flexible way to use strings in an array
+    char word[2][5]; // Flexible way to use strings in an array
     strcpy(word[0], "HI!");
     strcpy(word[1], "BYE!");
 
